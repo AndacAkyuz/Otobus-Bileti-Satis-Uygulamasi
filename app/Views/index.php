@@ -57,21 +57,23 @@ $isLoggedIn = $session->get('isLoggedIn');
 
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
+
+            
             <ul class="nav">
-              <li><a href="index" class="active">Ana Sayfa</a></li>
-              <li><a href="ebilet">Bilet İşlemleri</a></li>
-              <li><a href="seyehat">Seyahat Kılavuzu</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropbtn">Kurumsal</a>
-                <div class="dropdown-content">
-                  <a href="tarihce">Tarihçe</a>
-                  <a href="filomuz">Filomuz</a>
-                  <a href="servisler">Şehir İçi Servisler</a>
-                  <a href="kvkk-yasal-sozlesmeleri">KVKK Metni</a>
-                  <a href="yolcu-haklari">Yolcu Hakları</a>
-                  <a href="iletisim">İletişim</a>
-                </div>
-              </li>
+                          <li><a href="index" class="active">Ana Sayfa</a></li>
+                          <li><a href="ebilet">Bilet İşlemleri</a></li>
+                          <li><a href="seyehat">Seyehat Kılavuzu</a></li>
+                          <li class="dropdown">
+                            <a href="#" class="dropbtn">Kurumsal</a>
+                            <div class="dropdown-content">
+                                <a href="tarihce">Tarihce</a>
+                                <a href="filomuz">Filomuz</a>
+                                <a href="servisler">Şehir İçi Servisler</a>
+                                <a href="kvkk-yasal-sozlesmeleri">KVKK Metni</a>
+                                <a href="yolcu-haklari">Yolcu Hakları</a>
+                                <a href="iletisim">İletişim</a>
+                            </div>
+                        </li>
               <?php if ($isLoggedIn): ?>
                 <li class="dropdown">
                   <a href="#" class="dropbtn">Hesabım</a>
@@ -83,7 +85,10 @@ $isLoggedIn = $session->get('isLoggedIn');
               <?php else: ?>
                 <li><a class="dropdown-item" href="<?= site_url('login') ?>">Giriş Yap</a></li>
               <?php endif; ?>
-
+            </ul>
+            <a class='menu-trigger'>
+							<span>Menu</span>
+						</a>
               <!-- ***** Menu End ***** -->
           </nav>
         </div>
