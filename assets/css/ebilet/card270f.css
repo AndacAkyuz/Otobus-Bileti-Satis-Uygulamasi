@@ -1,0 +1,1178 @@
+.jp-card.jp-card-safari.jp-card-identified .jp-card-front:before, .jp-card.jp-card-safari.jp-card-identified .jp-card-back:before {
+  background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.03) 4px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(210deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), -webkit-linear-gradient(-245deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%);
+  background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.03) 4px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(210deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), linear-gradient(-25deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%); }
+
+.jp-card.jp-card-ie-10.jp-card-flipped, .jp-card.jp-card-ie-11.jp-card-flipped {
+  -webkit-transform: 0deg;
+  -moz-transform: 0deg;
+  -ms-transform: 0deg;
+  -o-transform: 0deg;
+  transform: 0deg; }
+  .jp-card.jp-card-ie-10.jp-card-flipped .jp-card-front, .jp-card.jp-card-ie-11.jp-card-flipped .jp-card-front {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg); }
+  .jp-card.jp-card-ie-10.jp-card-flipped .jp-card-back, .jp-card.jp-card-ie-11.jp-card-flipped .jp-card-back {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg); }
+    .jp-card.jp-card-ie-10.jp-card-flipped .jp-card-back:after, .jp-card.jp-card-ie-11.jp-card-flipped .jp-card-back:after {
+      left: 18%; }
+    .jp-card.jp-card-ie-10.jp-card-flipped .jp-card-back .jp-card-cvc, .jp-card.jp-card-ie-11.jp-card-flipped .jp-card-back .jp-card-cvc {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+      left: 5%; }
+    .jp-card.jp-card-ie-10.jp-card-flipped .jp-card-back .jp-card-shiny, .jp-card.jp-card-ie-11.jp-card-flipped .jp-card-back .jp-card-shiny {
+      left: 84%; }
+      .jp-card.jp-card-ie-10.jp-card-flipped .jp-card-back .jp-card-shiny:after, .jp-card.jp-card-ie-11.jp-card-flipped .jp-card-back .jp-card-shiny:after {
+        left: -480%;
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg); }
+
+.jp-card.jp-card-ie-10.jp-card-amex .jp-card-back, .jp-card.jp-card-ie-11.jp-card-amex .jp-card-back {
+  display: none; }
+
+.jp-card-logo {
+  height: 36px;
+  width: 60px;
+  font-style: italic; }
+  .jp-card-logo, .jp-card-logo:before, .jp-card-logo:after {
+    box-sizing: border-box; }
+
+	.jp-card-logo.ziraatvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-ziraatvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-ziraatvisa, .jp-card.jp-card-ziraatvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/ziraatvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-ziraatvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-ziraatvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #e00623; }
+	.jp-card.jp-card-ziraatvisa.jp-card-identified .jp-card-logo.jp-card-ziraatvisa {
+		  opacity: 1; }  
+	  
+	  .jp-card-logo.ziraatmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-ziraatmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-ziraatmaster, .jp-card.jp-card-ziraatmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatmaster {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/ziraatmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+	.jp-card.jp-card-ziraatmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-ziraatmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #e00623; }
+	.jp-card.jp-card-ziraatmaster.jp-card-identified .jp-card-logo.jp-card-ziraatmaster {
+		  opacity: 1; }  
+	
+	.jp-card-logo.halkbankavisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-halkbankavisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-halkbankavisa, .jp-card.jp-card-halkbankavisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/halkbankavisa.html');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-halkbankavisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-halkbankavisa.jp-card-identified .jp-card-back:before {
+		  background-color: #3f4676; }
+	.jp-card.jp-card-halkbankavisa.jp-card-identified .jp-card-logo.jp-card-halkbankavisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.halkbankamaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-halkbankamaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-halkbankamaster, .jp-card.jp-card-halkbankamaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/halkbankamaster.html');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-halkbankamaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-halkbankamaster.jp-card-identified .jp-card-back:before {
+		  background-color: #3f4676; }
+	.jp-card.jp-card-halkbankamaster.jp-card-identified .jp-card-logo.jp-card-halkbankamaster {
+		  opacity: 1; }
+		  
+	.jp-card-logo.vakifbankvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-vakifbankvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-vakifbankvisa, .jp-card.jp-card-vakifbankvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/vakifbankvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-vakifbankvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-vakifbankvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #fdb813; }
+	.jp-card.jp-card-vakifbankvisa.jp-card-identified .jp-card-logo.jp-card-vakifbankvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.vakifbankmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-vakifbankmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-vakifbankmaster, .jp-card.jp-card-vakifbankmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/vakifbankmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-vakifbankmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-vakifbankmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #fdb813; }
+	.jp-card.jp-card-vakifbankmaster.jp-card-identified .jp-card-logo.jp-card-vakifbankmaster {
+		  opacity: 1; }  
+		  
+	.jp-card-logo.tebvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-tebvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-tebvisa, .jp-card.jp-card-tebvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/tebvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-tebvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-tebvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #00824e; }
+	.jp-card.jp-card-tebvisa.jp-card-identified .jp-card-logo.jp-card-tebvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.tebmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-tebmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-tebmaster, .jp-card.jp-card-tebmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/tebmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-tebmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-tebmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #00824e; }
+	.jp-card.jp-card-tebmaster.jp-card-identified .jp-card-logo.jp-card-tebmaster {
+		  opacity: 1; }  
+
+	.jp-card-logo.akbankvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-akbankvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-akbankvisa, .jp-card.jp-card-akbankvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/akbankvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-akbankvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-akbankvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #df3a30; }
+	.jp-card.jp-card-akbankvisa.jp-card-identified .jp-card-logo.jp-card-akbankvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.akbankmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-akbankmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-akbankmaster, .jp-card.jp-card-akbankmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/akbankmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-akbankmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-akbankmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #df3a30; }
+	.jp-card.jp-card-akbankmaster.jp-card-identified .jp-card-logo.jp-card-akbankmaster {
+		  opacity: 1; } 
+		  
+	.jp-card-logo.sekerbankvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-sekerbankvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-sekerbankvisa, .jp-card.jp-card-sekerbankvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/sekerbankvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-sekerbankvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-sekerbankvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #6da58e; }
+	.jp-card.jp-card-sekerbankvisa.jp-card-identified .jp-card-logo.jp-card-sekerbankvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.sekerbankmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-sekerbankmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-sekerbankmaster, .jp-card.jp-card-sekerbankmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/sekerbankmaster.html');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-sekerbankmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-sekerbankmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #6da58e; }
+	.jp-card.jp-card-sekerbankmaster.jp-card-identified .jp-card-logo.jp-card-sekerbankmaster {
+		  opacity: 1; }   
+		  
+	.jp-card-logo.garantivisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-garantivisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-garantivisa, .jp-card.jp-card-garantivisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/garantivisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-garantivisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-garantivisa.jp-card-identified .jp-card-back:before {
+		  background-color: #25772d; }
+	.jp-card.jp-card-garantivisa.jp-card-identified .jp-card-logo.jp-card-garantivisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.garantimaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-garantimaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-garantimaster, .jp-card.jp-card-garantimaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/garantimaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-garantimaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-garantimaster.jp-card-identified .jp-card-back:before {
+		  background-color: #25772d; }
+	.jp-card.jp-card-garantimaster.jp-card-identified .jp-card-logo.jp-card-garantimaster {
+		  opacity: 1; }   
+		
+	.jp-card-logo.isbankvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-isbankvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-isbankvisa, .jp-card.jp-card-isbankvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/isbankvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-isbankvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-isbankvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #00559f; }
+	.jp-card.jp-card-isbankvisa.jp-card-identified .jp-card-logo.jp-card-isbankvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.isbankmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-isbankmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-isbankmaster, .jp-card.jp-card-isbankmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/isbankmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-isbankmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-isbankmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #00559f; }
+	.jp-card.jp-card-isbankmaster.jp-card-identified .jp-card-logo.jp-card-isbankmaster {
+		  opacity: 1; }   
+		  
+	.jp-card-logo.yapikredivisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-yapikredivisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-yapikredivisa, .jp-card.jp-card-yapikredivisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/yapikredivisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-yapikredivisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-yapikredivisa.jp-card-identified .jp-card-back:before {
+		  background-color: #00264e; }
+	.jp-card.jp-card-yapikredivisa.jp-card-identified .jp-card-logo.jp-card-yapikredivisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.yapikredimaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-yapikredimaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-yapikredimaster, .jp-card.jp-card-yapikredimaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/yapikredimaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-yapikredimaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-yapikredimaster.jp-card-identified .jp-card-back:before {
+		  background-color: #00264e; }
+	.jp-card.jp-card-yapikredimaster.jp-card-identified .jp-card-logo.jp-card-yapikredimaster {
+		  opacity: 1; }
+		
+	.jp-card-logo.citibankvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-citibankvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-citibankvisa, .jp-card.jp-card-citibankvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/citivisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-citibankvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-citibankvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #0b4073; }
+	.jp-card.jp-card-citibankvisa.jp-card-identified .jp-card-logo.jp-card-citibankvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.citibankmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-citibankmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-citibankmaster, .jp-card.jp-card-citibankmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/citimaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-citibankmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-citibankmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #0b4073; }
+	.jp-card.jp-card-citibankmaster.jp-card-identified .jp-card-logo.jp-card-citibankmaster {
+		  opacity: 1; }
+		  
+	.jp-card-logo.turkishbankvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-turkishbankvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-turkishbankvisa, .jp-card.jp-card-turkishbankvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/turkishbankvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-turkishbankvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-turkishbankvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #d58b68; }
+	.jp-card.jp-card-turkishbankvisa.jp-card-identified .jp-card-logo.jp-card-turkishbankvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.turkishbankmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-turkishbankmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-turkishbankmaster, .jp-card.jp-card-turkishbankmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/turkishbankmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-turkishbankmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-turkishbankmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #d58b68; }
+	.jp-card.jp-card-turkishbankmaster.jp-card-identified .jp-card-logo.jp-card-turkishbankmaster {
+		  opacity: 1; }	  
+		
+	.jp-card-logo.ingvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-ingvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-ingvisa, .jp-card.jp-card-ingvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/ingvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-ingvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-ingvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #fa6a25; }
+	.jp-card.jp-card-ingvisa.jp-card-identified .jp-card-logo.jp-card-ingvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.ingmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-ingmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-ingmaster, .jp-card.jp-card-ingmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/ingmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-ingmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-ingmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #fa6a25; }
+	.jp-card.jp-card-ingmaster.jp-card-identified .jp-card-logo.jp-card-ingmaster {
+		  opacity: 1; }	
+		  
+	.jp-card-logo.tekstilvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-tekstilvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-tekstilvisa, .jp-card.jp-card-tekstilvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/tekstilvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-tekstilvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-tekstilvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #023f8b; }
+	.jp-card.jp-card-tekstilvisa.jp-card-identified .jp-card-logo.jp-card-tekstilvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.tekstilmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-tekstilmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-tekstilmaster, .jp-card.jp-card-tekstilmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/tekstilmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-tekstilmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-tekstilmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #023f8b; }
+	.jp-card.jp-card-tekstilmaster.jp-card-identified .jp-card-logo.jp-card-tekstilmaster {
+		  opacity: 1; }	
+		  
+	.jp-card-logo.finansbankvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-finansbankvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-finansbankvisa, .jp-card.jp-card-finansbankvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/finansbankvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-finansbankvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-finansbankvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #13659c; }
+	.jp-card.jp-card-finansbankvisa.jp-card-identified .jp-card-logo.jp-card-finansbankvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.finansbankmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-finansbankmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-finansbankmaster, .jp-card.jp-card-finansbankmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/finansbankmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-finansbankmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-finansbankmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #13659c; }
+	.jp-card.jp-card-finansbankmaster.jp-card-identified .jp-card-logo.jp-card-finansbankmaster {
+		  opacity: 1; }		  
+		  
+	.jp-card-logo.hsbcvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-hsbcvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-hsbcvisa, .jp-card.jp-card-hsbcvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/hsbcvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-hsbcvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-hsbcvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #e71d1c; }
+	.jp-card.jp-card-hsbcvisa.jp-card-identified .jp-card-logo.jp-card-hsbcvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.hsbcmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-hsbcmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-hsbcmaster, .jp-card.jp-card-hsbcmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/hsbcmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-hsbcmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-hsbcmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #e71d1c; }
+	.jp-card.jp-card-hsbcmaster.jp-card-identified .jp-card-logo.jp-card-hsbcmaster {
+		  opacity: 1; }	
+		  
+	.jp-card-logo.alternatifmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-alternatifmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-alternatifmaster, .jp-card.jp-card-alternatifmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/abankmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-alternatifmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-alternatifmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #105295; }
+	.jp-card.jp-card-alternatifmaster.jp-card-identified .jp-card-logo.jp-card-alternatifmaster {
+		  opacity: 1; }  
+	
+	.jp-card-logo.alternatifvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-alternatifvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-alternatifvisa, .jp-card.jp-card-alternatifvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/abankvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-alternatifvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-alternatifvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #105295; }
+	.jp-card.jp-card-alternatifvisa.jp-card-identified .jp-card-logo.jp-card-alternatifvisa {
+		  opacity: 1; }		
+
+	.jp-card-logo.burganvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-burganvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-burganvisa, .jp-card.jp-card-burganvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/burganvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-burganvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-burganvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #0098d7; }
+	.jp-card.jp-card-burganvisa.jp-card-identified .jp-card-logo.jp-card-burganvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.burganmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-burganmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-burganmaster, .jp-card.jp-card-burganmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/burganmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-burganmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-burganmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #0098d7; }
+	.jp-card.jp-card-burganmaster.jp-card-identified .jp-card-logo.jp-card-burganmaster {
+		  opacity: 1; }	
+		  
+	.jp-card-logo.denizvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-denizvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-denizvisa, .jp-card.jp-card-denizvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/denizbankvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-denizvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-denizvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #013370; }
+	.jp-card.jp-card-denizvisa.jp-card-identified .jp-card-logo.jp-card-denizvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.denizmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-denizmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-denizmaster, .jp-card.jp-card-denizmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/denizbankmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-denizmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-denizmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #013370; }
+	.jp-card.jp-card-denizmaster.jp-card-identified .jp-card-logo.jp-card-denizmaster {
+		  opacity: 1; }	
+		  
+	.jp-card-logo.anadoluvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-anadoluvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-anadoluvisa, .jp-card.jp-card-anadoluvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/anadolubankvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-anadoluvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-anadoluvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #1b76bd; }
+	.jp-card.jp-card-anadoluvisa.jp-card-identified .jp-card-logo.jp-card-anadoluvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.anadolumaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-anadolumaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-anadolumaster, .jp-card.jp-card-anadolumaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/anadolubankmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-anadolumaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-anadolumaster.jp-card-identified .jp-card-back:before {
+		  background-color: #1b76bd; }
+	.jp-card.jp-card-anadolumaster.jp-card-identified .jp-card-logo.jp-card-anadolumaster {
+		  opacity: 1; }		
+
+		  
+	.jp-card-logo.albarakavisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-albarakavisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-albarakavisa, .jp-card.jp-card-albarakavisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/albarakavisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-albarakavisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-albarakavisa.jp-card-identified .jp-card-back:before {
+		  background-color: #ed1c24; }
+	.jp-card.jp-card-albarakavisa.jp-card-identified .jp-card-logo.jp-card-albarakavisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.albarakamaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-albarakamaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-albarakamaster, .jp-card.jp-card-albarakamaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/albarakamaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-albarakamaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-albarakamaster.jp-card-identified .jp-card-back:before {
+		  background-color: #ed1c24; }
+	.jp-card.jp-card-albarakamaster.jp-card-identified .jp-card-logo.jp-card-albarakamaster {
+		  opacity: 1; }
+		  
+	.jp-card-logo.kuveytvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-kuveytvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-kuveytvisa, .jp-card.jp-card-kuveytvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/kuveytvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-kuveytvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-kuveytvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #10664a; }
+	.jp-card.jp-card-kuveytvisa.jp-card-identified .jp-card-logo.jp-card-kuveytvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.kuveytmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-kuveytmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-kuveytmaster, .jp-card.jp-card-kuveytmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/kuveytmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-kuveytmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-kuveytmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #10664a; }
+	.jp-card.jp-card-kuveytmaster.jp-card-identified .jp-card-logo.jp-card-kuveytmaster {
+		  opacity: 1; }	  
+		  
+	.jp-card-logo.tkfbvisa {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-tkfbvisa.jp-card-identified .jp-card-front .jp-card-logo.jp-card-tkfbvisa, .jp-card.jp-card-tkfbvisa.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/tkfbvisa.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-tkfbvisa.jp-card-identified .jp-card-front:before, .jp-card.jp-card-tkfbvisa.jp-card-identified .jp-card-back:before {
+		  background-color: #ed1b29; }
+	.jp-card.jp-card-tkfbvisa.jp-card-identified .jp-card-logo.jp-card-tkfbvisa {
+		  opacity: 1; }  
+	
+	.jp-card-logo.tkfbmaster {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 9px;
+		line-height: 36px;
+		z-index: 1;
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
+	.jp-card.jp-card-tkfbmaster.jp-card-identified .jp-card-front .jp-card-logo.jp-card-tkfbmaster, .jp-card.jp-card-tkfbmaster.jp-card-identified .jp-card-back .jp-card-logo.jp-card-ziraatvisa {
+		  box-shadow: none; 
+		  background-image:url('../../www.pamukkale.com.tr/images/banka/tkfbmaster.png');
+		  background-size: 100%;
+		  background-repeat: no-repeat;
+		  width:175px;}
+
+	.jp-card.jp-card-tkfbmaster.jp-card-identified .jp-card-front:before, .jp-card.jp-card-tkfbmaster.jp-card-identified .jp-card-back:before {
+		  background-color: #ed1b29; }
+	.jp-card.jp-card-tkfbmaster.jp-card-identified .jp-card-logo.jp-card-tkfbmaster {
+		  opacity: 1; }	
+		  
+	.jp-card-logo.jp-card-mastercard{
+	color:white;font-weight:bold;text-align:center;font-size:9px;line-height:36px;z-index:1;text-shadow:1px 1px rgba(0,0,0,0.6)}
+.jp-card-logo.jp-card-mastercard:before,.jp-card-logo.jp-card-mastercard:after{
+	content:" ";display:block;width:36px;top:0;position:absolute;height:36px;border-radius:18px}
+.jp-card-logo.jp-card-mastercard:before{
+	left:0;background:red;z-index:-1}
+.jp-card-logo.jp-card-mastercard:after{
+	right:0;background:#FFAB00;z-index:-2}
+.jp-card.jp-card-mastercard.jp-card-identified .jp-card-front .jp-card-logo.jp-card-mastercard,.jp-card.jp-card-mastercard.jp-card-identified .jp-card-back .jp-card-logo.jp-card-mastercard{
+	box-shadow:none}
+.jp-card.jp-card-mastercard.jp-card-identified .jp-card-front:before,.jp-card.jp-card-mastercard.jp-card-identified .jp-card-back:before{
+	background-color:#0061A8}
+.jp-card.jp-card-mastercard.jp-card-identified .jp-card-logo.jp-card-mastercard{
+opacity:1}	  
+.jp-card-container {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+  width: 350px;
+  max-width: 100%;
+  height: 200px;
+  margin: auto;
+  z-index: 1;
+  position: relative; }
+
+.jp-card {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 315px;
+  border-radius: 10px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+  transition: all 400ms linear; }
+  .jp-card > *, .jp-card > *:before, .jp-card > *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: inherit; }
+  .jp-card.jp-card-flipped {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg); }
+  .jp-card .jp-card-front, .jp-card .jp-card-back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    transition: all 400ms linear;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #e30613; 
+	background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.03) 4px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(210deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 90% 20%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 15% 80%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), -webkit-linear-gradient(-245deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%);
+    background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.03) 4px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(210deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 90% 20%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 15% 80%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), linear-gradient(-25deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%);
+        }
+    .jp-card .jp-card-front:before, .jp-card .jp-card-back:before {
+      content: " ";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      border-radius: 10px;
+      -webkit-transition: all 400ms ease;
+      -moz-transition: all 400ms ease;
+      transition: all 400ms ease; }
+    .jp-card .jp-card-front:after, .jp-card .jp-card-back:after {
+      content: " ";
+      display: block; }
+    .jp-card .jp-card-front .jp-card-display, .jp-card .jp-card-back .jp-card-display {
+      color: white;
+      font-weight: normal;
+      opacity: 0.5;
+      -webkit-transition: opacity 400ms linear;
+      -moz-transition: opacity 400ms linear;
+      transition: opacity 400ms linear; }
+      .jp-card .jp-card-front .jp-card-display.jp-card-focused, .jp-card .jp-card-back .jp-card-display.jp-card-focused {
+        opacity: 1;
+        font-weight: 700; }
+    .jp-card .jp-card-front .jp-card-cvc, .jp-card .jp-card-back .jp-card-cvc {
+      font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+      font-size: 14px; }
+    .jp-card .jp-card-front .jp-card-shiny, .jp-card .jp-card-back .jp-card-shiny {
+      width: 50px;
+      height: 35px;
+      border-radius: 5px;
+      background: #CCC;
+      position: relative; }
+      .jp-card .jp-card-front .jp-card-shiny:before, .jp-card .jp-card-back .jp-card-shiny:before {
+        content: " ";
+        display: block;
+        width: 70%;
+        height: 60%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background: #d9d9d9;
+        position: absolute;
+        top: 20%; }
+  .jp-card .jp-card-front .jp-card-logo {
+    position: absolute;
+    opacity: 0;
+    right: 5%;
+    top: 8%;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    transition: 400ms; }
+  .jp-card .jp-card-front .jp-card-lower {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: 30px; }
+    @media only screen and (max-width: 480px) {
+      .jp-card .jp-card-front .jp-card-lower {
+        width: 90%;
+        left: 5%; } }
+    .jp-card .jp-card-front .jp-card-lower .jp-card-cvc {
+      visibility: hidden;
+      float: right;
+      position: relative;
+      bottom: 5px; }
+    .jp-card .jp-card-front .jp-card-lower .jp-card-number {
+      font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+      font-size: 24px;
+      clear: both;
+      margin-bottom: 30px; }
+    .jp-card .jp-card-front .jp-card-lower .jp-card-expiry {
+      font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+      letter-spacing: 0em;
+      position: relative;
+      float: right;
+      width: 25%; }
+      .jp-card .jp-card-front .jp-card-lower .jp-card-expiry:before, .jp-card .jp-card-front .jp-card-lower .jp-card-expiry:after {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 7px;
+        white-space: pre;
+        display: block;
+        opacity: .5; }
+      .jp-card .jp-card-front .jp-card-lower .jp-card-expiry:before {
+        content: attr(data-before);
+        margin-bottom: 2px;
+        font-size: 7px;
+        text-transform: uppercase; }
+      .jp-card .jp-card-front .jp-card-lower .jp-card-expiry:after {
+        position: absolute;
+        content: attr(data-after);
+        text-align: right;
+        right: 100%;
+        margin-right: 5px;
+        margin-top: 2px;
+        bottom: 0; }
+    .jp-card .jp-card-front .jp-card-lower .jp-card-name {
+      text-transform: uppercase;
+      font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+      font-size: 20px;
+      max-height: 45px;
+      position: absolute;
+      bottom: 0;
+      width: 190px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: horizontal;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+  .jp-card .jp-card-back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg); }
+    .jp-card .jp-card-back .jp-card-bar {
+      background-color: #444;
+      background-image: -webkit-linear-gradient(#444, #333);
+      background-image: linear-gradient(#444, #333);
+      width: 100%;
+      height: 20%;
+      position: absolute;
+      top: 10%; }
+    .jp-card .jp-card-back:after {
+      content: " ";
+      display: block;
+      background-color: #FFF;
+      background-image: -webkit-linear-gradient(#FFF, #FFF);
+      background-image: linear-gradient(#FFF, #FFF);
+      width: 80%;
+      height: 16%;
+      position: absolute;
+      top: 40%;
+      left: 2%; }
+    .jp-card .jp-card-back .jp-card-cvc {
+      position: absolute;
+      top: 40%;
+      left: 85%;
+      -webkit-transition-delay: 600ms;
+      -moz-transition-delay: 600ms;
+      transition-delay: 600ms; }
+    .jp-card .jp-card-back .jp-card-shiny {
+      position: absolute;
+      top: 66%;
+      left: 2%; }
+      .jp-card .jp-card-back .jp-card-shiny:after {
+        content: "Kartın Kullanımı kart ile ilgili sözleşmenin hükümlerine tabidir. Use of this card is subject to the terms of the cardholder agreement.";
+        position: absolute;
+        left: 120%;
+        top: 5%;
+        color: white;
+        font-size: 7px;
+        width: 230px;
+        opacity: .5; }
+  .jp-card.jp-card-identified {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
+    .jp-card.jp-card-identified .jp-card-front, .jp-card.jp-card-identified .jp-card-back {
+      background-color: #000;
+      background-color: rgba(0, 0, 0, 0.5); }
+      .jp-card.jp-card-identified .jp-card-front:before, .jp-card.jp-card-identified .jp-card-back:before {
+        -webkit-transition: all 400ms ease;
+        -moz-transition: all 400ms ease;
+        transition: all 400ms ease;
+        background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.03) 4px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(210deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 90% 20%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 15% 80%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), -webkit-linear-gradient(-245deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%);
+        background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.03) 4px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(210deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 90% 20%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-radial-gradient(circle at 15% 80%, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), linear-gradient(-25deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%);
+        opacity: 1; }
+      .jp-card.jp-card-identified .jp-card-front .jp-card-logo, .jp-card.jp-card-identified .jp-card-back .jp-card-logo {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3); }
+    .jp-card.jp-card-identified.no-radial-gradient .jp-card-front:before, .jp-card.jp-card-identified.no-radial-gradient .jp-card-back:before {
+      background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.03) 4px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(210deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), -webkit-linear-gradient(-245deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%);
+      background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.03) 4px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(210deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), linear-gradient(-25deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%); }
