@@ -1,6 +1,5 @@
 <?php
 
-
 include 'config.php';
 
 ?>
@@ -22,16 +21,16 @@ include 'config.php';
   <h2>Umuttepe Turizm Giriş Ekranı</h2>
   <div class="container" id="container">
     <div class="form-container sign-up-container">
-      <form method="post"> 
+    <form method="post" action="<?= site_url('authcode/register') ?>">
         <h1>Hesap Oluştur</h1>
         <input type="text" name="AdSoyad" placeholder="İsim Soyisim" required>
-        <input type="email" name="Eposta" placeholder="Email" required>
+        <input type="email" name="Eposta" placeholder="Eposta" required>
 		    <input type="text" name="TelefonNo" placeholder="Telefon No (5xxxxxxxxx)" required>
 		    <input type="text" name="DogumTarihi" placeholder="Doğum Tarihi (Yıl-Ay-Gün)" required>
         <input type="password" name="Sifre" placeholder="Şifre" required>
         <input type="text" name="Cinsiyet" placeholder="Cinsiyet (E/K Şeklinde Giriniz)" required>
         <input type="text" name="TCNo" placeholder="11 Haneli TC Kimlik Numaranızı Giriniz" required>
-        <button type="submit">Kayıt Ol</button>
+        <button type="submit" name="register">Kayıt Ol</button>
       </form>
     </div>
     <div class="form-container sign-in-container">

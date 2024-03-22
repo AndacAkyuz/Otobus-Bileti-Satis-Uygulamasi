@@ -14,7 +14,6 @@ class Auth extends BaseController
     }
     public function index(): string
     {
-        echo "Hello World!";
         return view('index');
     }
     

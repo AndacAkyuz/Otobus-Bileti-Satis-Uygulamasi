@@ -40,4 +40,34 @@ class Authcode extends Controller
             return redirect()->to('login');
         }
     }
-}
+   
+    public function register()
+    {
+        $request = \Config\Services::request();
+        $session = session();
+
+        // Formdan gelen verileri al
+        $data = [
+            'AdSoyad' => $request->getPost('AdSoyad'),
+            'Eposta' => $request->getPost('Eposta'),
+            'TelefonNo' => $request->getPost('TelefonNo'),
+            'DogumTarihi' => $request->getPost('DogumTarihi'),
+            'Sifre' => $request->getPost('Sifre'),
+            'Cinsiyet' => $request->getPost('Cinsiyet'),
+            'TCNo' => $request->getPost('TCNo')
+        ];
+
+        // Veritabanı modelini yarat
+        $model = new \App\Models\AuthModel();
+
+        // Veriyi ekleyelim
+        if ($model->insert($data)) {
+            $session->setFlashdata('message', 'Kayıt başarıyla tamamlandı.');
+            return redirect()->to('servisler');
+        } else {
+            $session->setFlashdata('error', 'Kayıt sırasında bir hata oluştu. Lütfen tekrar deneyin.');
+            return redirect()->back()->withInput();
+        }
+    }
+    
+ }

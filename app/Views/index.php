@@ -1,8 +1,7 @@
 <?php
-
-
     include 'config.php';
-
+    $session = session();
+    $isLoggedIn = $session->get('isLoggedIn');
 
 ?>
 
@@ -71,11 +70,12 @@
                                 <a href="iletisim">İletişim</a>
                             </div>
                         </li>
-                        <li><a href="login">Giriş Yap</a></li>
-                      </ul>   
-                      <a class='menu-trigger'>
-                          <span>Menu</span>
-                      </a>
+                        <?php if ($isLoggedIn): ?>
+                <li><a class="dropdown-item" href="<?= site_url('kullanici') ?>">Hesabım</a></li>
+            <?php else: ?>
+                <li><a class="dropdown-item" href="<?= site_url('login') ?>">Giriş Yap</a></li>
+            <?php endif; ?>
+                     
                       <!-- ***** Menu End ***** -->
                   </nav>
               </div>
