@@ -22,7 +22,8 @@ include 'config.php';
   <h2>Umuttepe Turizm Giriş Ekranı</h2>
   <div class="container" id="container">
     <div class="form-container sign-up-container">
-      <form method="post"> <h1>Hesap Oluştur</h1>
+      <form method="post"> 
+        <h1>Hesap Oluştur</h1>
         <input type="text" name="AdSoyad" placeholder="İsim Soyisim" required>
         <input type="email" name="Eposta" placeholder="Email" required>
 		    <input type="text" name="TelefonNo" placeholder="Telefon No (5xxxxxxxxx)" required>
@@ -35,6 +36,7 @@ include 'config.php';
     </div>
     <div class="form-container sign-in-container">
      <form method="post" action="<?= site_url('authcode/login') ?>">
+     <h1>Giriş Yap</h1>
         <input type="email" name="Eposta" placeholder="Eposta" required>
         <input type="password" name="Sifre" placeholder="Şifre" required>
         <a href="#">Şifreni mi unuttun ?</a>
