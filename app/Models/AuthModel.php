@@ -10,9 +10,9 @@ class AuthModel extends Model
 
     protected $allowedFields = ['AdSoyad', 'Eposta', 'TelefonNo', 'Sifre', 'DogumTarihi', 'Cinsiyet', 'TCNo'];
 
-    public function registerUser($userData)
+    public function registerUser($data)
     {
-        $query = $this->db->table($this->table)->insert($userData);
+        $query = $this->db->table($this->table)->insert($data);
         return $query ? true : false;
     }
 

@@ -43,30 +43,26 @@ class Authcode extends Controller
    
     public function register()
     {
-        $request = \Config\Services::request();
-        $session = session();
+        $userModel = new \App\Models\AuthModel();
 
-        // Formdan gelen verileri al
-        $data = [
-            'AdSoyad' => $request->getPost('AdSoyad'),
-            'Eposta' => $request->getPost('Eposta'),
-            'TelefonNo' => $request->getPost('TelefonNo'),
-            'DogumTarihi' => $request->getPost('DogumTarihi'),
-            'Sifre' => $request->getPost('Sifre'),
-            'Cinsiyet' => $request->getPost('Cinsiyet'),
-            'TCNo' => $request->getPost('TCNo')
+        // Kullanıcıdan gelen form verilerini al
+        $userData = [
+            'AdSoyad' => $this->request->getPost('AdSoyad'),
+            'Eposta'    => $this->request->getPost('Eposta'),
+            'TelefonNo'    => $this->request->getPost('TelefonNo'),
+            'password' => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT), // Parolayı hash'leme
+            'DogumTarihi'    => $this->request->getPost('DogumTarihi'),
+            'Cinsiyet'    => $this->request->getPost('Cinsiyet'),
+            'TCNo'    => $this->request->getPost('TCNo'),
         ];
 
-        // Veritabanı modelini yarat
-        $model = new \App\Models\AuthModel();
-
-        // Veriyi ekleyelim
-        if ($model->insert($data)) {
-            $session->setFlashdata('message', 'Kayıt başarıyla tamamlandı.');
-            return redirect()->to('servisler');
+        // Kullanıcıyı kaydetmeye çalış
+        if ($userModel->save($userData) === false) {
+            // Kayıt başarısız ise kullanıcıyı kayıt formuna geri yönlendir
+            return redirect()->to('/register')->withInput()->with('errors', $userModel->errors());
         } else {
-            $session->setFlashdata('error', 'Kayıt sırasında bir hata oluştu. Lütfen tekrar deneyin.');
-            return redirect()->back()->withInput();
+            // Kayıt başarılı ise kullanıcıyı giriş sayfasına yönlendir
+            return redirect()->to('/iletisim')->with('success', 'Kayıt işlemi başarıyla tamamlandı. Lütfen giriş yapın.');
         }
     }
     
