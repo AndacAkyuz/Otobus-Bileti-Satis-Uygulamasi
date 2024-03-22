@@ -77,7 +77,6 @@ $isLoggedIn = $session->get('isLoggedIn');
                   <a href="#" class="dropbtn">Hesabım</a>
                   <div class="dropdown-content">
                     <a href="<?= site_url('kullanici') ?>">Profilim</a>
-                    <a href="#">Ayarlar</a>
                     <a href="<?= site_url('logout') ?>">Çıkış Yap</a>
                   </div>
                 </li>
