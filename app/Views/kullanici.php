@@ -1,3 +1,7 @@
+<?php
+include 'config.php';
+?>
+
 <html lang="en">
 <head>
     <title>Umuttepe Turizm</title>
@@ -53,7 +57,7 @@
                     <ul class="nav">
                         <li><a href="index">Ana Sayfa</a></li>
                         <li><a href="ebilet">Bilet İşlemleri</a></li>
-                        <li><a href="seyehat"  class="active">Seyehat Kılavuzu</a></li>
+                        <li><a href="seyehat">Seyehat Kılavuzu</a></li>
                         
                         <li class="dropdown">
                           <a href="#" class="dropbtn">Kurumsal</a>
@@ -77,31 +81,81 @@
     </div>
 </header>   
 <div class="container">
-        <div class="row ">
-            <div class="col">
-                Ana Menü
+<div class="row " style="text-align: center; background-color:#242422; margin-top: 25px; padding:5px">
+            <div class="col-md-12 text-center" style="color: white;">
+                Üye Bilgilerini Güncelle
             </div>
         </div>
-        <div class="row align-items-center">
-            <div class="col" style="border-right: 2px solid black;">
-                <a href="userInf">Üye Bilgilerim</a>
+        
+        <form action="<?= base_url('kullanici/update') ?>" method="post">
+        <br>
+            <div class="row custom-border">
+                <div class="col-md-3">TC Kimlik no</div>
+                <div class="col-md-9" style="text-align: center; " name="TCNo"
+                    value="<?php echo $user['TCNo']; ?>">
+                    <?php  echo $user['TCNo']; ?>
+                </div>
+                <input type="hidden" name="TCNo" value="<?php echo $user['TCNo']; ?>">
+
             </div>
-            <div class="col" style="border-right: 2px solid black;">
-                <a href="obilet">Bilet Satın Al</a>
+            <br>
+            <div class="row custom-border">
+                <div class="col-md-3">Kayıtlı Cep Telefonu Numarası </div>
+                <div class="col-md-9" style="text-align: center; ">
+                    <?php echo $user['TelefonNo']; ?>
+                </div>
             </div>
-            <div class="col" style="border-right: 2px solid black;">
-                <a href="points">Umtur Puanlarım</a>
+            <br>
+            <div class="row custom-border">
+                <div class="col-md-3">Ad Soyad</div>
+                <div class="col-md-9"><input style="background-color:  lightgrey;" type="text" class="form-control"
+                        id="AdSoyad" name="AdSoyad" value="<?php  echo $user['AdSoyad']; ?>" size="30"
+                        autocomplete="off"></div>
             </div>
-            <div class="col">
-                <a href="logout">Oturumu Kapat</a>
+            <div class="row custom-border">
+                <div class="col-md-3">Eposta</div>
+                <div class="col-md-9"><input style="background-color:  lightgrey;" type="text" class="form-control"
+                        id="Eposta" name="Eposta" value="<?php echo $user['Eposta']; ?>" size="30" autocomplete="off">
+                </div>
             </div>
-        </div>
+            <div class="row custom-border">
+                <div class="col-md-3">Şifre</div>
+                <div class="col-md-9"><input style="background-color:  lightgrey;" type="password" class="form-control"
+                        id="Sifre" name="Sifre" autocomplete="off" value="<?php echo $user['Sifre']; ?>"></div>
+            </div>
+            
+            <div class="row custom-border">
+                <div class="col-md-3">Cinsiyet</div>
+                <div class="col-md-9"><select style="background-color:  lightgrey;" id="Cinsiyet" name="Cinsiyet"
+                        class="form-control">
+                        <option value="<?php echo $user['Cinsiyet']; ?>" selected="">
+                        <?php  echo $user['Cinsiyet']; ?>
+                        </option>
+                        <option value="E"> Erkek </option>
+                        <option value="B"> Bayan </option>
+                    </select></div>
+            </div>
+           
+            <div class="row " style="margin-top: 15px;">
+                <div class="col-md-3"></div>
+                <div class="col-md-9" style="text-align: right;">
+                <button type="submit" class="btn btn-primary pull-right" id="update" name="update">Güncelle</button>
+            </div>
+            </div>
+    </div>
+    </form>
+    </div>
+    </div>
+
+    <div class="container">
+        
         <div class="row" style="margin-bottom: 100px; padding-top: 25px;">
             <table width="100%" cellspacing="0" cellpadding="0">
+               
                 <tbody>
                     <tr>
                         <td>
-
+                            <b>Aktif Biletleriniz : </b> <br/>
                             <b><b>Uygun Bilet Kaydı Bulunamadı.<br><br></b>
 
                             </b>
@@ -156,6 +210,7 @@
             </table>
         </div>
     </div>
+ </div>
 </body>
 
 <footer class="footer-section">
