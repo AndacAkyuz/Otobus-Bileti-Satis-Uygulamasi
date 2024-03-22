@@ -25,18 +25,18 @@ class Authcode extends Controller
             if ($user) {
                 $session->set('isLoggedIn', true);
                 $session->set('auth_user', [
-                    'AdSoyad' => $user['AdiSoyadi'],
+                    'AdSoyad' => $user['AdSoyad'],
                     'Eposta' => $user['Eposta'],
                     'TelefonNo' => $user['TelefonNo'],
                     'Sifre' => $user['Sifre'],
                     'DogumTarihi' => $user['DogumTarihi'],
                     'Cinsiyet' => $user['Cinsiyet'],
-                    'TCNo' => $user['TCNo'],
+                    'TCNo' => $user['TCNo']
                 ]);
 
             return redirect()->to('index');
         } else {
-            $session->setFlashdata('message', 'Cep telefon numarası veya şifre yanlış.');
+            $session->setFlashdata('message', 'Eposta veya şifre yanlış.');
             return redirect()->to('login');
         }
     }
