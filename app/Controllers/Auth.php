@@ -14,8 +14,7 @@ class Auth extends BaseController
     }
     public function index(): string
     {
-        echo "Panel Merhaba Dünyaaa";
-        return view('Panel/Login_v');
+        return view('index');
     }
     
     public function check()
