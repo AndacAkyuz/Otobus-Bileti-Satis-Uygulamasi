@@ -5,31 +5,6 @@ include 'config.php';
 
 ?>
 
-<div class="container">
-    <div class="row">
-       <div class="col-md-6 offset-md-3">
-            <div class="card">
-                <div class="card-header">
-                    <h3>Login</h3>
-                </div>
-                <div class="card-body">
-                    <form method="post" action="<?= site_url('authcode/login') ?>">
-                        <div class="form-group">
-                            <label for="Eposta">Email</label>
-                            <input type="email" name="Eposta" id="Eposta" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="Sifre">Password</label>
-                            <input type="password" name="Sifre" id="Sifre" class="form-control" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Login</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -59,8 +34,8 @@ include 'config.php';
       </form>
     </div>
     <div class="form-container sign-in-container">
-      <form method="post"> <h1>Giriş Yap</h1>
-        <input type="email" name="Email" placeholder="Email" required>
+     <form method="post" action="<?= site_url('authcode/login') ?>">
+        <input type="email" name="Eposta" placeholder="Eposta" required>
         <input type="password" name="Sifre" placeholder="Şifre" required>
         <a href="#">Şifreni mi unuttun ?</a>
         <button type="submit" name="login">Giriş Yap</button>
