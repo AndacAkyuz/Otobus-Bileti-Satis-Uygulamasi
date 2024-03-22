@@ -20,6 +20,7 @@ $routes->get('/kullanici', 'Kullanici::index');
 $routes->get('/yolcu-haklari', 'Yolcuhaklari::index');
 $routes->get('/logout', 'Logout::index');
 $routes->get('/register', 'Register::index');
+$routes->get('/biletara', 'Biletara::index');
 
 $routes->get('/authcode', 'Authcode::index');
 $routes->post('authcode/login', 'Authcode::login');
