@@ -2,6 +2,11 @@
 
 Bu proje, CodeIgniter PHP çerçevesi ve Bootstrap CSS kütüphanesi kullanılarak geliştirilen bir bilet uygulaması web sitesini detaylı bir şekilde sunmaktadır. Uygulama, kullanıcı dostu bir arayüz ile çeşitli etkinlikler ve seyahatler için bilet satın alma imkanı sunmaktadır.
 
+![1](https://github.com/AndacAkyuz/Otobus-Bileti-Satis-Uygulamasi/assets/91327557/e0ec3872-367d-4f38-bc4b-118f6dd02cde)
+![2](https://github.com/AndacAkyuz/Otobus-Bileti-Satis-Uygulamasi/assets/91327557/5bebf8d9-94ce-448b-a3b6-350295fd827e)
+
+
+
 ## Grup Üyeleri
 
 - Andaç Akyüz - 211307035 - akyuzandac@gmail.com
