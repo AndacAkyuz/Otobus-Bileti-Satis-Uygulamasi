@@ -8,6 +8,9 @@ Bu proje, CodeIgniter PHP çerçevesi ve Bootstrap CSS kütüphanesi kullanılar
 ![2](https://github.com/AndacAkyuz/Otobus-Bileti-Satis-Uygulamasi/assets/91327557/5bebf8d9-94ce-448b-a3b6-350295fd827e)
 
 
+![3](https://github.com/AndacAkyuz/Otobus-Bileti-Satis-Uygulamasi/assets/91327557/783ea089-0e86-4ae9-a174-73aa145a4b31)
+
+
 
 ## Grup Üyeleri
 
