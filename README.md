@@ -6,7 +6,7 @@ Bu proje, CodeIgniter PHP çerçevesi ve Bootstrap CSS kütüphanesi kullanılar
 
 - Andaç Akyüz - 211307035 - akyuzandac@gmail.com
 - Furkan Esad Uzun - 211307059 - f.esad.uzun@gmail.com
-- Oktan Efe Çakar - 211307021 - Oktanefecakar@gmail.com
+- Oktan Efe Çakar - 211307021 - oktanefecakar@gmail.com
 
 ## Özellikler
 
