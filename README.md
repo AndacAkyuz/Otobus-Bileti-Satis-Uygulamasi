@@ -57,6 +57,9 @@ Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICEN
 
 
 
+
+
+
 # CodeIgniter 4 Uygulama Başlangıç Noktası
 
 ## CodeIgniter Nedir?
