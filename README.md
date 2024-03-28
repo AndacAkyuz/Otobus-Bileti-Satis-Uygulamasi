@@ -1,3 +1,52 @@
+# Umuttepe Turizm Projesi
+
+Bu proje, CodeIgniter PHP çerçevesi ve Bootstrap CSS kütüphanesi kullanılarak geliştirilen bir bilet uygulaması web sitesini detaylı bir şekilde sunmaktadır. Uygulama, kullanıcı dostu bir arayüz ile çeşitli etkinlikler ve seyahatler için bilet satın alma imkanı sunmaktadır.
+
+## Grup Üyeleri
+
+- Andaç Akyüz - 211307035 - akyuzandac@gmail.com
+- Furkan Esad Uzun - 211307059 - f.esad.uzun@gmail.com
+- Oktan Efe Çakar - 211307021 - Oktanefecakar@gmail.com
+
+## Özellikler
+
+- Kapsamlı Arama Seçenekleri: Kullanıcılar, etkinlikleri ve seyahatleri kategorilere, anahtar kelimelere, tarih aralıklarına ve fiyat aralıklarına göre geniş kapsamlı bir şekilde arayabilirler.
+- Ayrıntılı Bilgi Sunumu: Uygulama, her bir etkinlik ve seyahat için detaylı bilgiler sunar. Bu bilgiler, tarihler, saatler, fiyatlar, koltuk durumu, mekan detayları, program içeriği ve iletişim bilgilerini içerir.
+- Hızlı ve Güvenli Satın Alma İşlemi: Kullanıcılar, istedikleri biletleri hızlıca seçip güvenli bir şekilde satın alabilirler. Uygulama, kredi kartı gibi çeşitli ödeme yöntemlerini destekler.
+- Kullanıcı Dostu Arayüz: Uygulamanın arayüzü basit ve kullanımı kolaydır. Kullanıcılar, istedikleri bilgilere kolaylıkla erişebilir ve bilet satın alma sürecini sorunsuz bir şekilde tamamlayabilirler.
+- Güvenilir Ödeme Altyapısı: Uygulama, tüm ödeme işlemleri için güvenilir bir altyapı kullanır. Kullanıcıların kişisel bilgileri şifrelenir ve güvenli bir şekilde saklanır.
+- Kişisel Kullanıcı Profili: Kullanıcılar, uygulama içinde bir profil oluşturabilir ve bilet geçmişlerini izleyebilirler. Bu özellik sayesinde kullanıcılar, daha önce satın aldıkları biletleri kolayca bulabilir ve yeniden satın alabilirler.
+
+## Teknolojiler
+
+- PHP
+- CodeIgniter
+- MySQL
+- Bootstrap
+
+## Kurulum
+
+1. Projeyi klonlayın: `git clone https://github.com/your-username/umuttepe-turizm.git`
+2. Proje dizinine gidin: `cd umuttepe-turizm`
+3. Composer paketlerini yükleyin: `composer install`
+4. Veritabanı yapılandırmasını oluşturun: `application/config/database.php` dosyasını düzenleyin ve veritabanı bilgilerinizi girin.
+5. Veritabanı tablolarını oluşturmak için migration'ları çalıştırın: `php spark migrate`
+6. Web sunucusunu başlatın: `php spark serve`
+
+## Katkıda Bulunma
+
+1. Bu depoyu (fork) edin.
+2. Yeni bir dal (branch) oluşturun: `git checkout -b feature/your-feature`
+3. Değişikliklerinizi yapın ve bunları taahhüt edin (commit): `git commit -am 'Add some feature'`
+4. Dalınıza (branch) itme (push) yapın: `git push origin feature/your-feature`
+5. Bir birleştirme isteği (pull request) gönderin.
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+
+
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
