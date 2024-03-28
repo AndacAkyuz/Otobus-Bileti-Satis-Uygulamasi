@@ -57,71 +57,56 @@ Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICEN
 
 
 
-# CodeIgniter 4 Application Starter
+# CodeIgniter 4 Uygulama Başlangıç Noktası
 
-## What is CodeIgniter?
+## CodeIgniter Nedir?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+CodeIgniter, hafif, hızlı, esnek ve güvenli bir PHP full-stack web çerçevesidir. Daha fazla bilgiyi [resmi site](https://codeigniter.com/)de bulabilirsiniz.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Bu depo, bir composer ile kurulabilir bir uygulama başlangıç noktasını içerir. Bu, geliştirme deposundan oluşturulmuştur.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Versiyon 4 için planlar hakkında daha fazla bilgiyi forumdaki CodeIgniter 4'de bulabilirsiniz.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+Son çerçeve sürümüne uygun kullanıcı kılavuzunu okuyabilirsiniz.
 
-## Installation & updates
+## Kurulum ve Güncellemeler
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+Yeni bir sürüm çıktığında `composer update` komutunu kullanarak `composer create-project codeigniter4/appstarter` komutu ile uygulamayı oluşturun.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+Güncelleme yaparken, `app` klasörünüze uygulamanız gereken herhangi bir değişikliği görmek için sürüm notlarını kontrol edin. Etkilenen dosyalar, `vendor/codeigniter4/framework/app` klasöründen kopyalanabilir veya birleştirilebilir.
 
-## Setup
+## Kurulum
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+`env` dosyasını `.env` olarak kopyalayın ve uygulamanız için `baseURL` ve herhangi bir veritabanı ayarını düzenleyin.
 
-## Important Change with index.php
+## `index.php` ile Önemli Değişiklik
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+`index.php` artık projenin kök dizininde değil! Güvenlik ve bileşenlerin ayrılması için `public` klasörünün içine taşındı.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+Bu, web sunucunuzun projenizin `public` klasörüne "işaret etmesi" gerektiği anlamına gelir ve
+projenizin köküne değil. Daha iyi bir uygulama, oraya işaret etmek için bir sanal sunucu yapılandırmaktır. Kötü bir uygulama, web sunucunuzu projenin köküne işaret etmek ve `public/...` yazmayı beklemektir, çünkü geri kalan mantığınız ve çerçeveniz açığa çıkar.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+CI4'ün nasıl çalıştığı hakkında daha iyi bir açıklama için lütfen kullanıcı kılavuzunu okuyun!
 
-## Repository Management
+## Depo Yönetimi
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+HATALARI izlemek ve onaylanmış GELİŞTİRME iş paketlerini izlemek için GitHub sorunlarını, ana depomuzda kullanıyoruz.
+DESTEK sağlamak ve ÖZELLİK TALEPLERİni tartışmak için forumumuzu kullanıyoruz.
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+Bu depo, dağıtım için hazırlık betiğimiz tarafından oluşturulmuş bir "dağıtım" deposudur. Sorunları forumumuzda veya ana depoda sorun olarak bildirebilirsiniz.
 
-## Server Requirements
+## Sunucu Gereksinimleri
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+PHP sürüm 7.4 veya daha yükseği gerektirir ve aşağıdaki uzantıların yüklü olması gerekir:
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+- intl
+- mbstring
 
-> [!WARNING]
-> The end of life date for PHP 7.4 was November 28, 2022.
-> The end of life date for PHP 8.0 was November 26, 2023.
-> If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> The end of life date for PHP 8.1 will be November 25, 2024.
+[!UYARI] PHP 7.4 için yaşam döngüsü son tarihi 28 Kasım 2022 idi. PHP 8.0 için yaşam döngüsü son tarihi 26 Kasım 2023 idi. Hala PHP 7.4 veya 8.0 kullanıyorsanız, hemen yükseltmelisiniz. PHP 8.1 için yaşam döngüsü son tarihi 25 Kasım 2024 olacaktır.
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+Ayrıca, PHP'nizde aşağıdaki uzantıların etkinleştirildiğinden emin olun:
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+- json (varsayılan olarak etkindir - kapatmayın)
+- mysqlnd MySQL kullanmayı planlıyorsanız
+- libcurl HTTP\CURLRequest kütüphanesini kullanmayı planlıyorsanız
+
