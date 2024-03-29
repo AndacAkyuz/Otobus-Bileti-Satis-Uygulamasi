@@ -19,8 +19,16 @@ $routes->get('/tarihce', 'Tarihce::index');
 $routes->get('/kullanici', 'Kullanici::index');
 $routes->get('/yolcu-haklari', 'Yolcuhaklari::index');
 $routes->get('/logout', 'Logout::index');
-$routes->get('/register', 'Register::index');
 $routes->get('/biletara', 'Biletara::index');
+$routes->get('/biletara2', 'Biletara2::index');
+
+
 
 $routes->get('/authcode', 'Authcode::index');
 $routes->post('authcode/login', 'Authcode::login');
+
+
+$routes->get('guzergah', 'Guzergah::index');
+$routes->post('guzergah', 'Guzergah::index');
+
+$routes->get('guzergahdetay/(:num)', 'Guzergah::show/$1');

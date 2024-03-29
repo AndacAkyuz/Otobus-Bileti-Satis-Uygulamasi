@@ -41,29 +41,31 @@ class Authcode extends Controller
         }
     }
    
+    
     public function register()
-    {
-        $userModel = new \App\Models\AuthModel();
+{
+    $userModel = new \App\Models\AuthModel();
 
-        // Kullanıcıdan gelen form verilerini al
-        $userData = [
-            'AdSoyad' => $this->request->getPost('AdSoyad'),
-            'Eposta'    => $this->request->getPost('Eposta'),
-            'TelefonNo'    => $this->request->getPost('TelefonNo'),
-            'password' => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT), // Parolayı hash'leme
-            'DogumTarihi'    => $this->request->getPost('DogumTarihi'),
-            'Cinsiyet'    => $this->request->getPost('Cinsiyet'),
-            'TCNo'    => $this->request->getPost('TCNo'),
-        ];
+    // Kullanıcıdan gelen form verilerini al
+    $userData = [
+        'AdSoyad' => $this->request->getPost('AdSoyad'),
+        'Eposta'    => $this->request->getPost('Eposta'),
+        'TelefonNo'    => $this->request->getPost('TelefonNo'),
+        'Sifre' => $this->request->getPost('Sifre'), // Parolayı hash'leme
+        'DogumTarihi'    => $this->request->getPost('DogumTarihi'),
+        'Cinsiyet'    => $this->request->getPost('Cinsiyet'),
+        'TCNo'    => $this->request->getPost('TCNo'),
+    ];
 
-        // Kullanıcıyı kaydetmeye çalış
-        if ($userModel->save($userData) === false) {
-            // Kayıt başarısız ise kullanıcıyı kayıt formuna geri yönlendir
-            return redirect()->to('/register')->withInput()->with('errors', $userModel->errors());
-        } else {
-            // Kayıt başarılı ise kullanıcıyı giriş sayfasına yönlendir
-            return redirect()->to('/iletisim')->with('success', 'Kayıt işlemi başarıyla tamamlandı. Lütfen giriş yapın.');
-        }
+    // Kullanıcıyı kaydetmeye çalış
+    if ($userModel->insert($userData) === false) {
+        // Kayıt başarısız ise kullanıcıyı kayıt formuna geri yönlendir
+        return redirect()->to('/register')->withInput()->with('errors', $userModel->errors());
+    } else {
+        // Kayıt başarılı ise kullanıcıyı giriş sayfasına yönlendir
+        return redirect()->to('/iletisim')->with('success', 'Kayıt işlemi başarıyla tamamlandı. Lütfen giriş yapın.');
     }
+}
+
     
  }

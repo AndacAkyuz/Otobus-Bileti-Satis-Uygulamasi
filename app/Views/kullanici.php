@@ -123,18 +123,7 @@ include 'config.php';
                 <div class="col-md-9"><input style="background-color:  lightgrey;" type="password" class="form-control"
                         id="Sifre" name="Sifre" autocomplete="off" value="<?php echo $user['Sifre']; ?>"></div>
             </div>
-            
-            <div class="row custom-border">
-                <div class="col-md-3">Cinsiyet</div>
-                <div class="col-md-9"><select style="background-color:  lightgrey;" id="Cinsiyet" name="Cinsiyet"
-                        class="form-control">
-                        <option value="<?php echo $user['Cinsiyet']; ?>" selected="">
-                        <?php  echo $user['Cinsiyet']; ?>
-                        </option>
-                        <option value="E"> Erkek </option>
-                        <option value="B"> Bayan </option>
-                    </select></div>
-            </div>
+        
            
             <div class="row " style="margin-top: 15px;">
                 <div class="col-md-3"></div>
