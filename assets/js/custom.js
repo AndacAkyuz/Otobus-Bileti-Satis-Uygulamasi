@@ -276,7 +276,7 @@ let directionsRenderer;
 // Function to dynamically load the Google Maps API only when needed
 function loadMap() {
   const script = document.createElement('script');
-  script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyD4mDWGu_NvFgAcY6c3p8OoHHpkOEs_NcE&callback=initMap";
+  script.src = "https://maps.googleapis.com/maps/api/js?&callback=initMap";
   script.async = true;
   script.defer = true;
   document.body.appendChild(script);
