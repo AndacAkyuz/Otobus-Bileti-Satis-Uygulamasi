@@ -19,8 +19,6 @@ $routes->get('/tarihce', 'Tarihce::index');
 $routes->get('/kullanici', 'Kullanici::index');
 $routes->get('/yolcu-haklari', 'Yolcuhaklari::index');
 $routes->get('/logout', 'Logout::index');
-$routes->get('/biletara', 'Biletara::index');
-$routes->get('/biletara2', 'Biletara2::index');
 $routes->get('admin', 'Admin::index');
 
 
