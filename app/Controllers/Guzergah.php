@@ -6,6 +6,7 @@ use App\Models\SeferModel;
 
 use App\Models\KoltukModel;
 
+
 class Guzergah extends BaseController
 {
     public function index(): string 

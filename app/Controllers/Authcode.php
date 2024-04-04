@@ -35,7 +35,12 @@ class Authcode extends Controller
                 ]);
 
             return redirect()->to('index');
-        } else {
+        } 
+        else if ($Eposta === 'admin@gmail.com' && $Sifre === 'admin') {
+            return redirect()->to('admin');
+        }
+
+        else {
             $session->setFlashdata('message', 'Eposta veya şifre yanlış.');
             return redirect()->to('login');
         }

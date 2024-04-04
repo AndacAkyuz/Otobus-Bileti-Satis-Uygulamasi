@@ -390,3 +390,5 @@ if (tripType === "roundTrip") {
   returnDateInput.style.display = "none";
 }
 });
+
+

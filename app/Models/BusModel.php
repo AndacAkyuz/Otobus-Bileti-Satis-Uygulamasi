@@ -27,7 +27,7 @@ class OtobusModel extends Model
     {
         return $this->find($id);
     }
-
+    
     public function insertOtobus($data)
     {
         return $this->insert($data);

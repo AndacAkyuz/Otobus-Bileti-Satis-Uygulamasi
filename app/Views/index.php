@@ -102,38 +102,53 @@ $isLoggedIn = $session->get('isLoggedIn');
   <br><br>
   <img src="assets/images/indirim2.png" style="position: absolute; top: 0; left: 0;">
 
-  <fieldset
-    style="background-color: #ffffff; position: relative; margin-top: 8.5%;margin-left: 4%;  width: 92.5%; height: 50%;justify-content: center; border-radius: 20px; font-size: 15px;padding:30px; border:4px solid black;">
+  <fieldset style="background-color: #ffffff; position: relative; margin-top: 8.5%; margin-left: 4%; width: 92.5%; height: 50%; justify-content: center; border-radius: 20px; font-size: 15px; padding:30px; border:4px solid black;">
     <br>
-    <legend style="color: black; margin-left: 1%;margin-top: -1%; ">
+    <legend style="color: black; margin-left: 1%; margin-top: -1%; ">
       <input type="radio" id="oneWay" name="tripType" value="oneWay" checked> Gidiş
       <input type="radio" id="roundTrip" name="tripType" value="roundTrip"> Gidiş-Dönüş
     </legend>
+    <form action="<?php echo base_url('guzergah'); ?>" method="post" id="searchForm">
     <label for="from" style="margin-left: 1%; color: black; font-size: 20px;">Başlangıç:</label>
-    <select id="from">
+    <select id="from" name="from">
       <option value="Kocaeli" style="color: black;">Kocaeli</option>
       <option value="Ankara">Ankara</option>
       <option value="İstanbul">İstanbul</option>
       <option value="İzmir">İzmir</option>
-      <option value="Eskişehir">Eskişehir</option>
     </select>
     <label for="to" style="color: black;font-size: 20px;">Varış:</label>
-    <select id="to">
+    <select id="to" name="to">
       <option value="">Seçiniz</option>
     </select>
-    <button onclick="showRoute()" id="showHideRouteButton" style="font-size: 16px;">Rotayı Göster</button>
-    <p style="display: inline-block; color: black; font-size: 20px;">Gidiş Tarihi Seçin: <input type="date"
-        id="departureDate"></p>
-    <p id="roundTripDate" style="display: inline-block; color: black; font-size: 20px;">Dönüş Tarihi Seçin: <input
-        type="date" id="returnDate"></p>
+    
+    <p style="display: inline-block; color: black; font-size: 20px;">Gidiş Tarihi Seçin: <input type="date" id="departureDate" name="departureDate"></p>
+    <p id="roundTripDate" style="display: inline-block; color: black; font-size: 20px;">Dönüş Tarihi Seçin: <input type="date" id="returnDate" name="returnDate"></p>
     <p style="display: inline-block;">
-      <a href="biletara">
-        <button type="button" id="biletara" style="font-size: 18px;">Bilet Ara</button>
-      </a>
+      <button type="submit" class="seabtn" style="font-size: 18px;">Bilet Ara</button>
+      <button type="button" onclick="showRoute()" style="font-size: 18px;">Rotayı Göster</button>
     </p>
+    </form>
+    <br>
+</fieldset>
+<script>
+    function validateForm() {
+        var from = document.getElementById("from").value;
+        var to = document.getElementById("to").value;
+        var departureDate = document.getElementById("departureDate").value;
+        
+        if (to === "" || departureDate === "") {
+            alert("Lütfen varış yeri ve gidiş tarihi seçiniz.");
+            return false; // Formu gönderme işlemini iptal et
+        }
+        return true; // Formu gönder
+    }
+    
+    document.getElementById("searchForm").onsubmit = validateForm;
+</script>
 
-  </fieldset>
 
+
+<!--- /banner ---->
   <div id="myModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
@@ -296,6 +311,7 @@ $isLoggedIn = $session->get('isLoggedIn');
   <script src="<?= base_url('assets/js/tabs.js') ?>"></script>
   <script src="<?= base_url('assets/js/popup.js') ?>"></script>
   <script src="<?= base_url('assets/js/custom.js') ?>"></script>
+  <script src="<?= base_url('assets/js/custom2.js') ?>"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <script async
